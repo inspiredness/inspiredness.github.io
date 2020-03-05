@@ -4,6 +4,17 @@
   width: 80%;
 }
 
+.main-title {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+
+.main-title-img {
+  margin: 0; 
+  margin-right: 10px;
+}
+
 main,
 footer,
 .nav-container {
