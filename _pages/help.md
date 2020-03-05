@@ -5,11 +5,145 @@ author: "Fernando Cejas"
 permalink: /help/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+This project uses [Markdown](https://en.wikipedia.org/wiki/Markdown) which is a lightweight markup language with plain-text-formatting syntax. [Markdown](https://en.wikipedia.org/wiki/Markdown) is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+Here are some **example content** of what we can do with this powerful language in order to [contribute](/contribute) to this project:
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+---
+# Headers
+{% highlight markdown %}
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+{% endhighlight %}
 
-Thanks for reading!
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+---
+# Text formatting
+{% highlight markdown %}
+- **Bold**
+- _Italics_
+- ~~Strikethrough~~
+- <ins>Underline</ins>
+- <sup>Superscript</sup>
+- <sub>Subscript</sub>
+- Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
+- Citation: <cite>&mdash; Chester How</cite>
+{% endhighlight %}
+
+- **Bold**
+- _Italics_
+- ~~Strikethrough~~
+- <ins>Underline</ins>
+- <sup>Superscript</sup>
+- <sub>Subscript</sub>
+- Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
+- Citation: <cite>&mdash; Chester How</cite>
+
+---
+# Lists
+{% highlight markdown %}
+1. Ordered list item 1
+2. Ordered list item 2
+3. Ordered list item 3
+
+* Unordered list item 1
+* Unordered list item 2
+* Unordered list item 3
+{% endhighlight %}
+
+1. Ordered list item 1
+2. Ordered list item 2
+3. Ordered list item 3
+
+* Unordered list item 1
+* Unordered list item 2
+* Unordered list item 3
+
+---
+# Links
+{% highlight markdown %}
+Check out tale on [GitHub](https://github.com/chesterhow/tale).
+{% endhighlight %}
+
+Check out tale on [GitHub](https://github.com/chesterhow/tale).
+
+---
+# Images
+{% highlight markdown %}
+![Placeholder image](https://placehold.it/800x400 "Placeholder image")
+
+![Image with caption](https://placehold.it/700x400 "Image with caption")
+_This is an image with a caption_
+{% endhighlight %}
+
+![Placeholder image](https://placehold.it/800x400 "Placeholder image")
+
+![Image with caption](https://placehold.it/700x400 "Image with caption")
+_This is an image with a caption_
+
+---
+# Code and Syntax Highlighting
+Use back-ticks for `inline code`. Multi-line code snippets are supported too through Pygments.
+
+{% highlight js %}
+// Sample javascript code
+var s = "JavaScript syntax highlighting";
+alert(s);
+{% endhighlight %}
+
+{% highlight python %}
+# Sample python code
+s = "Python syntax highlighting"
+print s
+{% endhighlight %}
+
+Adding `linenos` to the Pygments tag enables line numbers.
+
+{% highlight js  linenos %}
+// Sample javascript code
+var s = "JavaScript syntax highlighting";
+alert(s);
+{% endhighlight %}
+
+---
+# Blockquotes
+{% highlight markdown %}
+> Curabitur blandit tempus porttitor. 
+> Nullam quis risus eget urna mollis ornare vel eu leo. 
+> Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+{% endhighlight %}
+
+> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+---
+# Horizontal Rule & Line Break
+{% highlight markdown %}
+Use `<hr>` for horizontal rules
+
+<hr>
+
+and `<br>` for line breaks.
+
+<br>
+{% endhighlight %}
+
+Use `<hr>` for horizontal rules
+
+<hr>
+
+and `<br>` for line breaks.
+
+<br>
+
+_The end_
