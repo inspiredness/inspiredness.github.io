@@ -5,11 +5,45 @@ author: "Fernando Cejas"
 permalink: /contribute/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+**This website is built with Jekyll**. It is fully compatible with Github pages, where it is actually hosted. 
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+# What is Jekyll?
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+No more databases, comment moderation, or pesky updates to install-just your content. **Markdown, Liquid, HTML & CSS go in**. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
 
-Thanks for reading!
+You create your content as text files (Markdown). Check [help](/help) for more information and examples.
+
+# Contribute using Pull requests
+
+Feel free to contribute either by requesting features (through the [issues section](https://github.com/inspiredness/inspiredness.github.io/issues)) or collaborating with new articles:
+- [Clone the repo](https://github.com/inspiredness/inspiredness.github.io).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-post or my-new-feature).
+- Open a pull request on [GitHub](https://github.com/inspiredness/inspiredness.github.io) and describe the feature, fix or post.
+
+
+# License
+     
+    MIT License
+
+    Copyright (c) 2020 Fernando Cejas
+
+    Permission is hereby granted, free of charge, to any person 
+    obtaining a copy of this software and associated documentation 
+    files (the "Software"), to deal in the Software without 
+    restriction, including without limitation the rights to use, 
+    copy, modify, merge, publish, distribute, sublicense, and/or 
+    sell copies of the Software, and to permit persons to whom the 
+    Software is furnished to do so, subject to the following 
+    conditions:
+
+    The above copyright notice and this permission notice shall be 
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+    HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+    OTHER DEALINGS IN THE SOFTWARE.
