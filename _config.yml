@@ -5,7 +5,7 @@ baseurl:        ""
 url:            "https://inspiredness.io"
 
 # Google Analytics
-google_analytics: UA-159911747-1
+google_analytics: UA-159911747-1 # <-- THIS SHOULD BE YOUR GOOGLE ANALYTICS ID
 
 # Author
 author:
