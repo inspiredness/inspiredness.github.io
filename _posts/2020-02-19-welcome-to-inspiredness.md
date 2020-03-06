@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Inspiredness"
 author: "Fernando Cejas"
-comments: true
+comments: false
 ---
 
 Inpiredness.io: Inspirational Stories from Human Beings.
