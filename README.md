@@ -6,7 +6,7 @@ This is a jekyll project for:
 
 **This website is built with Jekyll**. It uses a fork of a template called [Tale](https://github.com/chesterhow/tale) which was **customized** for the purpose of this project. It is fully compatible with Github pages, where it is actually hosted. 
 
-//TODO: add image of the site
+![inspiredness_screenshot](https://user-images.githubusercontent.com/1360604/76074925-65762580-5f9c-11ea-9a93-ef4f840ebfdb.png)
 
 ## What is Jekyll?
 
@@ -62,7 +62,7 @@ For more information about how to use `Bundler` in your Jekyll project, this tut
 
 ## Using this template
 
-Download or Fork it: [https://github.com/android10/android10.github.io](https://github.com/android10/android10.github.io). 
+Download or Fork it: [https://github.com/inspiredness/inspiredness.github.io](https://github.com/inspiredness/inspiredness.github.io). 
 - In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: ""</code>. Also, change your Google Analytics code and disqus username.
 - Edit the menu and footer copyrights in <code>default.html</code>
 - Start by adding your .md files in <code>_posts</code>. 
@@ -82,6 +82,24 @@ author: Fernando Cejas
 comments: true
 ---
 </pre>
+
+## Features
+- Easy installation
+- Compatible with GitHub Pages
+- Responsive design (looks just as good on mobile)
+- Syntax highlighting, with the help of Pygments
+- Markdown and HTML text formatting
+- Pagination of posts
+- [Disqus comments (can be enabled if needed)](#enabling-comments)
+
+### Enabling Comments
+Comments are disabled by default. To enable them, look for the following line in `_config.yml` and change `jekyll-tale` to your site's Disqus id.
+
+```yml
+disqus: jekyll-tale
+```
+
+Next, add `comments: true` to the YAML front matter of the posts which you would like to enable comments for.
 
 
 ## Contribute
