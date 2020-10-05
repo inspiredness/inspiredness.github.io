@@ -1,9 +1,6 @@
 Inspiredness.io Project
 =========================
 
-This is a jekyll project for:
-* [https://inspiredness.io/](https://inspiredness.io/)
-
 **This website is built with Jekyll**. It uses a fork of a template called [Tale](https://github.com/chesterhow/tale) which was **customized** for the purpose of this project. It is fully compatible with Github pages, where it is actually hosted. 
 
 ![inspiredness_screenshot](https://user-images.githubusercontent.com/1360604/76074925-65762580-5f9c-11ea-9a93-ef4f840ebfdb.png)
